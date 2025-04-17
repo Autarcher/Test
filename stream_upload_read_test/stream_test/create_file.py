@@ -10,7 +10,7 @@ os.makedirs("test_dir_A", exist_ok=True)
 filepath = "test_dir_A/text.txt"
 
 # 定义数据块大小和模式
-pattern = b"abcd"
+pattern = b"lya1"
 chunk_size_mb = 4  #
 chunks_count = 128  #
 

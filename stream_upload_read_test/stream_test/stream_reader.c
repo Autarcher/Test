@@ -65,7 +65,7 @@ int main(int argc, char *argv[]) {
             // 检查是否含有预期的模式
             int valid_pattern = 1;
             for (int i = 0; i < curr_read_size && i < 1000 && valid_pattern; i++) {
-                if (buffer[i] != "abcd"[i % 4]) {
+                if (buffer[i] != "lya1"[i % 4]) {
                     valid_pattern = 0;
                     printf("警告: 在位置 %d 处发现非预期数据\n", i);
                 }
